@@ -1,8 +1,5 @@
 package Logica;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public abstract class Titulo {
     private String titulo;
     private String sinopsis;
@@ -58,8 +55,8 @@ public abstract class Titulo {
     public void setIncluidoBasico(boolean incluidoBasico) {
         this.incluidoBasico = incluidoBasico;
     }
-// Goodbless
-    abstract public void menu();
+
+    public abstract void menu();
 
     public abstract void llenar();
 }

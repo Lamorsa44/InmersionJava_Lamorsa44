@@ -1,11 +1,7 @@
-
-import Logica.Serie;
-
-import java.util.ArrayList;
-import java.util.Scanner;
+import Logica.Menu;
 
 public class Main {
     public static void main(String[] args) {
-
+        Menu inicio = new Menu();
     }
 }

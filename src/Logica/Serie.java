@@ -34,8 +34,8 @@ public class Serie extends Titulo {
         System.out.println("Fecha de lanzamiento: " + getFechaLanzamiento());
         System.out.println("Incluido en el paquete basico: " + isIncluidoBasico());
         System.out.println("Temporadas: " + getTemporadas());
-        System.out.println("Capitulos de temporadas: " + getCapitulosTemporada());
-        System.out.println("Duracion de un capitulo (aprox): " + getDuracion());
+        System.out.println("Capítulos de temporadas: " + getCapitulosTemporada());
+        System.out.println("Duración de un capitulo (aprox): " + getDuracion());
     }
     public void llenar() {
         Scanner scan = new Scanner(System.in);
@@ -44,7 +44,7 @@ public class Serie extends Titulo {
         this.setTitulo(scan.nextLine());
         System.out.println("Escriba la sinopsis de la serie");
         this.setSinopsis(scan.nextLine());
-        System.out.println("Escriba la valoracion de la serie");
+        System.out.println("Escriba la valoración de la serie");
         this.setValoracion(scan.nextDouble());
         System.out.println("Escriba la fecha de lanzamiento de la serie");
         this.setFechaLanzamiento(scan.nextInt());
@@ -52,9 +52,9 @@ public class Serie extends Titulo {
         this.setIncluidoBasico(scan.nextBoolean());
         System.out.println("Escriba el numero de temporadas de la serie");
         this.setTemporadas(scan.nextInt());
-        System.out.println("Escriba el numero de capitulos de cada temporada de la serie");
+        System.out.println("Escriba el numero de capítulos de cada temporada de la serie");
         this.setCapitulosTemporada();
-        System.out.println("Escriba la duracion de un capitulo promedio");
+        System.out.println("Escriba la duración de un capitulo promedio");
         this.setDuracion(scan.nextInt());
 
         System.out.println("Terminado con exito!, volviendo al menu");

@@ -8,7 +8,7 @@ public class Menu {
     private static ArrayList<Titulo> titulos = new ArrayList<>();
     private static boolean centinel = true;
 
-    public static void main(String[] args) {
+    public Menu() {
         abrirMenu();
     }
 
@@ -21,6 +21,7 @@ public class Menu {
         System.out.println("---- 9) Salir ");
 
         registrarOpcion();
+        scan.nextLine();
     }
 
     private static void registrarOpcion() {
@@ -38,9 +39,7 @@ public class Menu {
                 case 2 -> registrarSerie();
                 case 3 -> calculadoraTiempo();
                 case 9 -> salir();
-                default -> {
-                    return;
-                }
+                default -> registrarOpcion();
             }
         }
 

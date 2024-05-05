@@ -1,8 +1,16 @@
 # Proyecto InmersionJava
 
-<p>Pequeña demostarion del programa</p>
+# Pequeña demostarion del programa
 
-https://github.com/Lamorsa44/InmersionJava_Lamorsa44/assets/154420635/3a4d22d9-43b3-42ef-8c90-ab24484ef7d9
+# Registrar Pelicula
+![Screenshot 2024-05-05 082403](https://github.com/Lamorsa44/InmersionJava_Lamorsa44/assets/154420635/64ec56f4-f848-4b50-988b-19919de1bb50)
+
+# Registrar Serie
+![image](https://github.com/Lamorsa44/InmersionJava_Lamorsa44/assets/154420635/f91e8b50-6c94-4824-8962-73e70ef1ffdc)
+
+# Calculadora de tiempo con los dos ejemplos anteriores
+![image](https://github.com/Lamorsa44/InmersionJava_Lamorsa44/assets/154420635/2dab00ee-873a-4eab-bfe8-c9ae27aa5e73)
+
 
 ## Como funciona
 
